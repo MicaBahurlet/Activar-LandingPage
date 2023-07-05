@@ -60,6 +60,15 @@ body{
     background-color: #ffffff;
 }
 
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 /*HERO*/
 
 #Hero{
@@ -123,33 +132,106 @@ body{
 /*Bienvenida*/
 
 #Bienvenida{
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
 }
 
 #Bienvenida h2{
     margin-bottom: 2rem;
-    font-size: 30px;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 #Bienvenida h3{
     margin-bottom: 1rem;
     font-size: 25px;
+    font-weight: 900;
 }
 
 #Bienvenida p{
     margin-top: 1rem;
     width: 100%;
     height: auto;
-    max-width: 900px;
-    text-align: justify;
+    max-width: 800px;
+    text-align: center;
     font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+/*Servicios*/
+
+#Servicios{
+    max-width: 1200px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Servicios h2{
+    font-size: 2rem; 
+}
+
+.CardContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.info-cards-servicios{
+    margin-top: 2rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.info-cards-servicios .infoservicio h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+.info-cards-servicios .infoservicio p{
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 1rem;
     line-height: 1.5;
 }
 
+#Servicios .info-cards-servicios .infoservicio img{
+    max-width: 120px;
+    margin-top: 1rem;
+    display: block;
+    margin: 0 auto 1.5rem;
+}
 
+/*Footer*/
 
+footer{
+    background-color: lightblue;
+
+    max-height: 12rem;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
