@@ -1,0 +1,344 @@
+@media (max-width:600px){
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+     
+    }
+
+    nav li{
+        display: none;
+    }
+
+    header .LogoNav img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
+    #Hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        max-width: 500px;
+    }
+
+    .IMGHero img{
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+    }
+
+    .TextHero p{
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    #Bienvenida{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    #Bienvenida h2{
+        margin-top: 0.5rem;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        
+    }
+
+    #Bienvenida h3{
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #Bienvenida p{
+        width: 100%;
+        height: auto;
+        max-width: 330px;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+    }
+
+    #FraseyDemasInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FraseyDemasInfo h3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        margin-top: 1rem;
+    }
+
+    #FraseyDemasInfo h4{
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #FraseyDemasInfo .Experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 310px;
+        padding: 5px;
+    }
+
+
+    #Servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 450px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .CardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        gap: 0.2rem;
+
+    }
+
+    #BotonWhatsApp{
+       height: auto;
+       right: 0;
+    }
+
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .Contacto{
+        margin-top: 1rem;
+        padding: 10px;
+    }
+
+    .LogoFooter img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+    .LogoMica img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+}
+
+@media (max-width:768px){
+
+    nav ul{
+        gap: 5px;
+    }
+
+    #Hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .TextHero p{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 390px;
+
+    }
+
+    .IMGHero img{
+        max-width: 290px;
+        padding: 10px;
+    }
+
+    #Bienvenida{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+        padding: 20px;
+    }
+
+    #Bienvenida h2{
+        margin-top: 0.5rem;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        
+    }
+
+    #Bienvenida h3{
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #Bienvenida p{
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+    }
+
+    #FraseyDemasInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FraseyDemasInfo h3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        margin-top: 1rem;
+    }
+
+    #FraseyDemasInfo h4{
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #FraseyDemasInfo .Experiencia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        padding: 5px;
+    }
+
+
+    #Servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 450px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .CardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+        gap: 0.2rem;
+
+    }
+
+    #BotonWhatsApp{
+       height: auto;
+       right: 0;
+    }
+
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+    .Contacto{
+        margin-top: 1rem;
+        padding: 10px;
+    }
+
+    .LogoFooter img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+    .LogoMica img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        max-width: 150px;
+    }
+
+}
